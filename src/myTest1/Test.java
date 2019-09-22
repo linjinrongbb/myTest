@@ -7,5 +7,6 @@ public class Test {
 		String fileName = "C:/Users/win8/Desktop/HelloWork";
 	    File newFile = new File(fileName);
 	    newFile.mkdirs();
+		System.out.print("hello");
 	}
 }
